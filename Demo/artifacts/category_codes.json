@@ -1,0 +1,39 @@
+{
+  "district_code": {
+    "Ampara": 0,
+    "Anuradhapura": 1,
+    "Badulla": 2,
+    "Batticaloa": 3,
+    "Colombo": 4,
+    "Galle": 5,
+    "Gampaha": 6,
+    "Hambanthota": 7,
+    "Jaffna": 8,
+    "Kaluthara": 9,
+    "Kandy": 10,
+    "Kegalle": 11,
+    "Kilinochchi": 12,
+    "Kurunegala": 13,
+    "Mannar": 14,
+    "Mathale": 15,
+    "Mathara": 16,
+    "Monaragala": 17,
+    "Mullaitivu": 18,
+    "Nuwaraeliya": 19,
+    "Polonnaruwa": 20,
+    "Puttalam": 21,
+    "Ratnapura": 22,
+    "Trincomalee": 23,
+    "Vavuniya": 24
+  },
+  "solar_code": {
+    "1": 0,
+    "5": 1,
+    "100": 2
+  },
+  "wind_code": {
+    "10": 0,
+    "50": 1,
+    "100": 2
+  }
+}
