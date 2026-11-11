@@ -2,7 +2,7 @@
 
 Statistical, machine learning and deep learning models for forecasting the power output of wind-solar hybrid systems across 25 districts of Sri Lanka, from **1 hour to 1 month ahead**.
 
-Final-year capstone project (ETEC 43018), Bachelor of Engineering Technology Honours, University of Kelaniya.
+Final-year capstone project , Bachelor of Engineering Technology Honours, University of Kelaniya.
 
 **Author:** A.C.S. Rodrigo
 **Supervisor:** Dr. Shakila Pathirana
