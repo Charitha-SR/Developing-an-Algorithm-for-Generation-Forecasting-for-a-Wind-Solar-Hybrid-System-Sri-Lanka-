@@ -96,7 +96,11 @@ The full dataset is too large for GitHub, so only a small sample is included in 
     └── (lab photo, pipeline diagram)
 ```
 
-## How to run
+## How to run the Interactive Demo
+We have included a fully self-contained GUI demo using the pre-trained GRU model.
+
+Important Data Note for Demo: The original test dataset spans 3 full years (2023-2025), which produces evaluation arrays (~550 MB) that exceed GitHub's 100 MB file limit. To make this repository self-contained, the demo artifacts/ folder contains arrays sliced to only the first 6 months (January–June 2023).
+Because of this intentional truncation, the internal sanity check in the demo script will display a "Date Assumption Warning". This is completely normal for this GitHub mini-version and can be safely ignored. (If you need the full 3-year demo arrays, please message me via GitHub or LinkedIn).
 
 ```bash
 # 1. Install packages
@@ -106,7 +110,9 @@ pip install -r requirements.txt
 python demo/demo_forecast.py
 ```
 
-To reproduce the full training you need the full master dataset (not included). Generate it with HOMER Pro as described above, set `DATA_DIR` at the top of each script, then run the scripts in order from `01` to `06`.
+
+How to train from scratch
+To reproduce the full training pipeline, you need the full master dataset (not included due to size constraints). Generate it with HOMER Pro as described in the methodology, place it in the data/ directory, update the INPUT_FILE paths in the configs, and run the scripts in order. The included Sri_Lanka_Wind_Solar_Master(Sample).parquet can be used to test the scripts.
 
 ## Limitations
 
