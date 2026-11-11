@@ -1,0 +1,7 @@
+# Requirements for the GRU-Final demo (demo_predict.py)
+
+
+torch==2.3.1
+numpy==1.26.4
+pandas==2.2.2
+matplotlib==3.8.4
